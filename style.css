@@ -101,3 +101,28 @@ button {
 button:hover {
     background-color: #1abc9c;
 }
+
+/* --- TEMA ESCURO (Dark Mode) --- */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f4f4f9;
+}
+
+body.dark-mode header {
+    background-color: #111;
+}
+
+body.dark-mode main {
+    background-color: #2d2d2d;
+    box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+}
+
+body.dark-mode h1, body.dark-mode h3, body.dark-mode label {
+    color: #1abc9c;
+}
+
+body.dark-mode input, body.dark-mode textarea {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+}
